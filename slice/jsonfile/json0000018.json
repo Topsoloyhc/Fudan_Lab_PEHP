@@ -1,0 +1,405 @@
+{
+    "Filename": "0000018",
+    "Imagepath": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Images/0000018.jpg",
+    "OutputImagepath": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/vis/0000018.jpg",
+    "Human_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Human_ids/0000018.png",
+    "Humansimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Humans/0000018.png",
+    "Category_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Category_ids/0000018.png",
+    "Categoriesimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Categories/0000018.png",
+    "Instance_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Instance_ids/0000018.png",
+    "Instancesimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Instances/0000018.png",
+    "Is_train": true,
+    "Is_val": false,
+    "Is_test": false,
+    "Resolution": [
+        375,
+        500
+    ],
+    "IoU": 0.030642227802044796,
+    "Instance_number": 10,
+    "Visible_Parsing": 10,
+    "Parts_number": 14,
+    "Parts": [
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+    ],
+    "Keypoints_number": 17,
+    "Visible_keypoints_number": 0,
+    "Visible_keypoints_type": [],
+    "Visible_keypoints_type_number": 0,
+    "Visible_Pose": 0,
+    "Instances": {
+        "Instance1": {
+            "Instance_name": "Instance1",
+            "Has_parsing": true,
+            "Bbox": [
+                34,
+                74,
+                112,
+                232
+            ],
+            "BboxResolution": [
+                40,
+                120
+            ],
+            "SegmentationResolution": 3469,
+            "BboxScale": 0.0256,
+            "IoU": 0.03196875675341916,
+            "SegmentationScale": 0.018501333333333335,
+            "Parts_number": 7,
+            "Parts": [
+                2,
+                7,
+                9,
+                10,
+                15,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance2": {
+            "Instance_name": "Instance2",
+            "Has_parsing": true,
+            "Bbox": [
+                55,
+                96,
+                113,
+                222
+            ],
+            "BboxResolution": [
+                41,
+                109
+            ],
+            "SegmentationResolution": 1755,
+            "BboxScale": 0.023834666666666667,
+            "IoU": 0.03196875675341916,
+            "SegmentationScale": 0.00936,
+            "Parts_number": 9,
+            "Parts": [
+                2,
+                7,
+                10,
+                13,
+                14,
+                16,
+                17,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance3": {
+            "Instance_name": "Instance3",
+            "Has_parsing": true,
+            "Bbox": [
+                145,
+                309,
+                115,
+                374
+            ],
+            "BboxResolution": [
+                164,
+                259
+            ],
+            "SegmentationResolution": 15502,
+            "BboxScale": 0.22653866666666667,
+            "IoU": 0.0650185582374473,
+            "SegmentationScale": 0.08267733333333334,
+            "Parts_number": 8,
+            "Parts": [
+                2,
+                5,
+                7,
+                9,
+                10,
+                13,
+                14,
+                15
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance4": {
+            "Instance_name": "Instance4",
+            "Has_parsing": true,
+            "Bbox": [
+                215,
+                277,
+                129,
+                315
+            ],
+            "BboxResolution": [
+                62,
+                186
+            ],
+            "SegmentationResolution": 6102,
+            "BboxScale": 0.061504,
+            "IoU": 0.04550088456637684,
+            "SegmentationScale": 0.032544,
+            "Parts_number": 8,
+            "Parts": [
+                2,
+                5,
+                9,
+                10,
+                13,
+                14,
+                15,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance5": {
+            "Instance_name": "Instance5",
+            "Has_parsing": true,
+            "Bbox": [
+                274,
+                321,
+                150,
+                244
+            ],
+            "BboxResolution": [
+                47,
+                94
+            ],
+            "SegmentationResolution": 2410,
+            "BboxScale": 0.023562666666666666,
+            "IoU": 0.017407009678635874,
+            "SegmentationScale": 0.012853333333333333,
+            "Parts_number": 4,
+            "Parts": [
+                2,
+                5,
+                12,
+                15
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance6": {
+            "Instance_name": "Instance6",
+            "Has_parsing": true,
+            "Bbox": [
+                247,
+                346,
+                219,
+                374
+            ],
+            "BboxResolution": [
+                99,
+                155
+            ],
+            "SegmentationResolution": 10132,
+            "BboxScale": 0.08184,
+            "IoU": 0.04639256857881625,
+            "SegmentationScale": 0.05403733333333333,
+            "Parts_number": 3,
+            "Parts": [
+                2,
+                5,
+                14
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance7": {
+            "Instance_name": "Instance7",
+            "Has_parsing": true,
+            "Bbox": [
+                321,
+                371,
+                112,
+                249
+            ],
+            "BboxResolution": [
+                50,
+                137
+            ],
+            "SegmentationResolution": 3470,
+            "BboxScale": 0.036533333333333334,
+            "IoU": 0.00872112417027912,
+            "SegmentationScale": 0.018506666666666668,
+            "Parts_number": 9,
+            "Parts": [
+                2,
+                5,
+                9,
+                10,
+                13,
+                14,
+                15,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance8": {
+            "Instance_name": "Instance8",
+            "Has_parsing": true,
+            "Bbox": [
+                366,
+                429,
+                104,
+                256
+            ],
+            "BboxResolution": [
+                63,
+                152
+            ],
+            "SegmentationResolution": 3410,
+            "BboxScale": 0.051072,
+            "IoU": 0.02997943704239775,
+            "SegmentationScale": 0.018186666666666667,
+            "Parts_number": 8,
+            "Parts": [
+                2,
+                5,
+                9,
+                10,
+                13,
+                15,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance9": {
+            "Instance_name": "Instance9",
+            "Has_parsing": true,
+            "Bbox": [
+                400,
+                458,
+                129,
+                308
+            ],
+            "BboxResolution": [
+                58,
+                179
+            ],
+            "SegmentationResolution": 6495,
+            "BboxScale": 0.055370666666666665,
+            "IoU": 0.0251442225635774,
+            "SegmentationScale": 0.03464,
+            "Parts_number": 8,
+            "Parts": [
+                2,
+                5,
+                9,
+                10,
+                13,
+                14,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance10": {
+            "Instance_name": "Instance10",
+            "Has_parsing": true,
+            "Bbox": [
+                134,
+                167,
+                91,
+                193
+            ],
+            "BboxResolution": [
+                33,
+                102
+            ],
+            "SegmentationResolution": 1894,
+            "BboxScale": 0.017952,
+            "IoU": 0.004320959676079107,
+            "SegmentationScale": 0.010101333333333334,
+            "Parts_number": 8,
+            "Parts": [
+                2,
+                5,
+                9,
+                10,
+                13,
+                15,
+                18,
+                19
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        }
+    },
+    "Delete": {
+        "Is_deleted": false,
+        "Reason": ""
+    },
+    "DataAugmentation": {
+        "Has_Augmentation": {
+            "Has_Augmentation": false,
+            "Background_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            },
+            "Occlusion_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            },
+            "Part_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            }
+        },
+        "Is_Augmentation": {
+            "Is_Augmentation": false,
+            "Background_Augmentation": false,
+            "Occlusion_Augmentation": false,
+            "Part_Augmentation": false,
+            "Original_Imagepath": null
+        }
+    },
+    "TestSet": {
+        "In_Simple_Parts_Testset": false,
+        "In_Normal_Parts_Testset": false,
+        "In_Hard_Parts_Testset": false,
+        "In_Not_Crowded_Testset": false,
+        "In_Crowded_Testset": false,
+        "In_Scatter_Testset": false,
+        "In_Occlude_Testset": false
+    },
+    "Poses_Without_parsing": 0
+}

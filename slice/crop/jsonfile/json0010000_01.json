@@ -1,0 +1,45 @@
+{
+    "Input": {
+        "Filename": "0010000",
+        "Imagepath": "slice/Images/0010000.jpg",
+        "Instance_path": "slice/crop/Instances/0010000_01.png",
+        "Human_ids_path": "slice/Instances/Human_ids/0010000.png",
+        "Category_ids_path": "slice/Instances/Category_ids/0010000.png",
+        "Instance_ids_path": "slice/Instances/Instance_ids/0010000.png"
+    },
+    "Output": {
+        "Filename": "0010000_01",
+        "Imagepath": "slice/crop/Images/0010000_01.jpg",
+        "Instance_path": "slice/crop/Instances/0010000_01.png",
+        "Human_ids_path": "slice/crop/Human_ids/0010000_01.png",
+        "Category_ids_path": "slice/crop/Category_ids/0010000_01.png",
+        "Instance_ids_path": "slice/crop/Instance_ids/0010000_01.png"
+    },
+    "Bbox": {
+        "Orginal": [
+            60,
+            29,
+            205,
+            304
+        ],
+        "New": [
+            29,
+            0,
+            265,
+            333
+        ]
+    },
+    "OrginalCoordinate": {
+        "Xmin": 29,
+        "Ymin": 0
+    },
+    "Resolution": [
+        265,
+        333
+    ],
+    "DataTailor": {
+        "Type": "Tailor_instance",
+        "Original_Image": "slice/Images/0010000.jpg",
+        "Instance_Index": 1
+    }
+}

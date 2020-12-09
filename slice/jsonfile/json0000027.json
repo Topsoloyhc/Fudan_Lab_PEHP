@@ -1,0 +1,164 @@
+{
+    "Filename": "0000027",
+    "Imagepath": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Images/0000027.jpg",
+    "OutputImagepath": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/vis/0000027.jpg",
+    "Human_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Human_ids/0000027.png",
+    "Humansimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Humans/0000027.png",
+    "Category_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Category_ids/0000027.png",
+    "Categoriesimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Categories/0000027.png",
+    "Instance_ids_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Instance_ids/0000027.png",
+    "Instancesimg_path": "C:/Users/LI/Desktop/learning/dataset/CIHP/instance-level_human_parsing/TANDV/Instances/0000027.png",
+    "Is_train": true,
+    "Is_val": false,
+    "Is_test": false,
+    "Resolution": [
+        375,
+        500
+    ],
+    "IoU": 0.014669766528046106,
+    "Instance_number": 3,
+    "Visible_Parsing": 3,
+    "Parts_number": 7,
+    "Parts": [
+        0,
+        1,
+        3,
+        7,
+        8,
+        9,
+        18
+    ],
+    "Keypoints_number": 17,
+    "Visible_keypoints_number": 0,
+    "Visible_keypoints_type": [],
+    "Visible_keypoints_type_number": 0,
+    "Visible_Pose": 0,
+    "Instances": {
+        "Instance1": {
+            "Instance_name": "Instance1",
+            "Has_parsing": true,
+            "Bbox": [
+                100,
+                195,
+                81,
+                239
+            ],
+            "BboxResolution": [
+                95,
+                158
+            ],
+            "SegmentationResolution": 5472,
+            "BboxScale": 0.08005333333333334,
+            "IoU": 0.0,
+            "SegmentationScale": 0.029184,
+            "Parts_number": 5,
+            "Parts": [
+                1,
+                3,
+                7,
+                9,
+                18
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance2": {
+            "Instance_name": "Instance2",
+            "Has_parsing": true,
+            "Bbox": [
+                211,
+                345,
+                72,
+                291
+            ],
+            "BboxResolution": [
+                134,
+                219
+            ],
+            "SegmentationResolution": 9856,
+            "BboxScale": 0.156512,
+            "IoU": 0.022004649792069158,
+            "SegmentationScale": 0.05256533333333333,
+            "Parts_number": 6,
+            "Parts": [
+                1,
+                3,
+                7,
+                8,
+                9,
+                18
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        },
+        "Instance3": {
+            "Instance_name": "Instance3",
+            "Has_parsing": true,
+            "Bbox": [
+                317,
+                360,
+                61,
+                120
+            ],
+            "BboxResolution": [
+                43,
+                59
+            ],
+            "SegmentationResolution": 966,
+            "BboxScale": 0.013530666666666667,
+            "IoU": 0.022004649792069158,
+            "SegmentationScale": 0.005152,
+            "Parts_number": 2,
+            "Parts": [
+                1,
+                7
+            ],
+            "Poses_of_predicted_number": 0,
+            "Poses_of_predicted": {},
+            "Has_gtpose": false,
+            "Gtpose": {}
+        }
+    },
+    "Delete": {
+        "Is_deleted": false,
+        "Reason": ""
+    },
+    "DataAugmentation": {
+        "Has_Augmentation": {
+            "Has_Augmentation": false,
+            "Background_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            },
+            "Occlusion_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            },
+            "Part_Augmentation": {
+                "Has": false,
+                "New_Imagepath": []
+            }
+        },
+        "Is_Augmentation": {
+            "Is_Augmentation": false,
+            "Background_Augmentation": false,
+            "Occlusion_Augmentation": false,
+            "Part_Augmentation": false,
+            "Original_Imagepath": null
+        }
+    },
+    "TestSet": {
+        "In_Simple_Parts_Testset": false,
+        "In_Normal_Parts_Testset": false,
+        "In_Hard_Parts_Testset": false,
+        "In_Not_Crowded_Testset": false,
+        "In_Crowded_Testset": false,
+        "In_Scatter_Testset": false,
+        "In_Occlude_Testset": false
+    },
+    "Poses_Without_parsing": 0
+}
